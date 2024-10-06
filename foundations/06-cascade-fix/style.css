@@ -17,17 +17,27 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+/* what was wrong with this was that the second paragraph had both selectors 
+being used so it was getting both attributes simply deleting the para off 
+of the second para and it fixes it*/
+
+
+
+
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 } 
 
-.button {
+#cancel-button  {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
+/* use id selectors instead of class selectors */
 
 .child {
   color: rgb(0, 0, 0);
@@ -35,7 +45,7 @@ body {
   font-size: 14px;
 }
 
-div.text {
+.div .text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
